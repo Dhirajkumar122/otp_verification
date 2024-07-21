@@ -1,0 +1,84 @@
+/* Otp.css */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .otpInputBox {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .otpInputBox h1 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .otpContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .otpInput {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 0.5rem;
+    text-align: center;
+    font-size: 2rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .otpInput:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+    transform: scale(1.1);
+  }
+
+
+
+.verifyButton {
+    text-align: center; 
+    margin-top: 20px; /* Add margin for spacing */
+}
+
+.verifyButton button {
+    padding: 12px 24px; /* Adjust padding for button size */
+    font-size: 16px; /* Set font size */
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+.verifyButton button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+
+  
+  /* Fade in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
